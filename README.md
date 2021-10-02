@@ -7,9 +7,10 @@ The tests were created by using a Page Object Model pattern, which allows to eas
 
 In order to run the tests :
 
-1. Please download and install IntelliJ from here : https://www.jetbrains.com/idea/download/
-2. Please download chromedriver for your version of browser and your operating system from here : https://chromedriver.chromium.org/downloads
-3. Git clone this repository : git@github.com:DascaluMihai/TundraWebTests.git
+1. Have Java installed on the computer.
+2. Download and install IntelliJ from here : https://www.jetbrains.com/idea/download/
+3. Download chromedriver for your version of browser and your operating system from here : https://chromedriver.chromium.org/downloads
+4. Git clone this repository : git@github.com:DascaluMihai/TundraWebTests.git
 
 Start IntelliJ and run the **testSuite.xml** file
 

@@ -85,6 +85,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method applies the first filter on the "category" section
      */
     public void applyProductFilter() throws InterruptedException {
@@ -93,6 +94,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method removes all applied filters on product page
      */
     public void removeAllFilters() throws InterruptedException {
@@ -109,6 +111,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method clicks on the first product from the product list page and also returns the href of the product it opens
      */
     public String clickOnProduct() throws InterruptedException {
@@ -119,6 +122,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method clicks on the product sorting button and opens the product sorting dropdown menu
      */
 
@@ -129,6 +133,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method creates a list of string containing the textContent of the elements in the product sorting dropdown menu
      * @return Returns a list of the names of the sorting options
      */
@@ -144,6 +149,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method opens the product sort menu and sorts the products by the highest price
      */
     public void sortProductByHighestPrice() throws InterruptedException {
@@ -155,6 +161,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method opens the product sort menu and sorts the products by the lowest price
      */
     public void sortProductByLowestPrice() throws InterruptedException {
@@ -166,6 +173,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * Method opens the product sort menu and sorts the products by product relevancy
      */
     public void sortProductByRelevancy() throws InterruptedException {
@@ -177,6 +185,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     *
      * @param element The name of the webElement that is to be trimmed
      * @return Returns the string selector of the webElement
      */
@@ -186,6 +195,7 @@ public class Homepage extends PageObject{
     }
 
     /**
+     * 
      * @param element The name of the webElement that is checked
      * @return Returns true or false in accordance with existence of element on page
      */

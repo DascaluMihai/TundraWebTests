@@ -5,5 +5,5 @@
         <classes>
             <class name="SmokeTest"/>
         </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+    </test>
+</suite>
